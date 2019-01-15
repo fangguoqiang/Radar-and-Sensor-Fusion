@@ -28,3 +28,23 @@ velocitySelector = [0 1 0 0; 0 0 0 1]; % Velocity selector
 BEP = createDemoDisplay(egoCar, sensors);
 
 ![dev1](https://user-images.githubusercontent.com/20502930/51167165-d73c6d00-18cb-11e9-91b1-d7026d5667f5.JPG)
+
+
+# The Driving Scenario Designer app enables you to design synthetic driving scenarios for testing your autonomous driving systems.
+
+## Using the app, you can:
+
+Create road and actor models using a drag-and-drop interface.
+
+Configure vision and radar sensors mounted on the ego car, and use these sensors to simulate detections of actors and lane boundaries in the scenario.
+
+Load driving scenarios representing European New Car Assessment Programme (Euro NCAP®) test protocols [1][2][3] and other prebuilt scenarios.
+
+Import OpenDRIVE® roads and lanes into a driving scenario. The app supports OpenDRIVE format specification version 1.4H [4].
+
+Export sensor detections to MATLAB®, or generate MATLAB code of the scenario that produced the detections.
+
+You can use synthetic detections generated from a scenario to test your sensor fusion or control algorithms. 
+
+![dev2](https://user-images.githubusercontent.com/20502930/51167538-dc4dec00-18cc-11e9-9d04-88e4339dfed5.JPG)
+
